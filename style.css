@@ -1,13 +1,15 @@
 header {
   background: #3c3a39;
 }
+
 .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px 24px;
-  color: #ffffff;
+  color: #fff;
 }
+
 .main-header {
   height: 24px;
   font-size: 18px;
@@ -17,9 +19,10 @@ header {
   align-items: center;
   padding: 12px 24px;
   justify-content: space-between;
-  color: #ffffff;
+  color: #fff;
   font-family: "roboto";
 }
+
 .content {
   background: #1c1a19;
   padding-top: 30px;
@@ -27,6 +30,7 @@ header {
   padding-bottom: 30px;
   padding-right: 24px;
 }
+
 .intro {
   font-style: normal;
   font-weight: bold;
@@ -36,6 +40,7 @@ header {
   letter-spacing: 0.37px;
   margin-bottom: 0px;
 }
+
 .bout {
   width: 327px;
   height: 27px;
@@ -48,11 +53,13 @@ header {
   align-items: center;
   color: #fff5e1;
 }
+
 .hey {
-  color: #ffffff;
+  color: #fff;
   font-family: "poppins", serif;
   font-size: 16px;
 }
+
 .svg {
   padding-right: 10px;
 }
