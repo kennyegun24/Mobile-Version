@@ -20,7 +20,7 @@ header {
   padding: 12px 24px;
   justify-content: space-between;
   color: #fff;
-  font-family: "roboto";
+  font-family: "roboto" sans-serif;
 }
 
 .content {
@@ -35,7 +35,7 @@ header {
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
-  font-family: "crete-round";
+  font-family: "crete-round" sans-serif;
   color: #ff6b00;
   letter-spacing: 0.37px;
 }
@@ -43,7 +43,7 @@ header {
 .bout {
   width: 327px;
   height: 27px;
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
