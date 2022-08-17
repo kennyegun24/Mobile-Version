@@ -1,10 +1,9 @@
-# Mobile-Version
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Kenny Portfolio
 
 > Mobile Portfolio
+> This is my mobile portfolio, show casing the mobile version of my portfolio and my work as a software developer.
 
 ## Built With
 
@@ -17,8 +16,7 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To use this repositpry you will need to Clone this repository to your machine. A .gitignore file is already created to ignore any file that is irrelevant, especially your node.js file. A linter is already set up to help you check for errors in your codes**
 
 To get a local copy up and running follow these simple example steps.
 
