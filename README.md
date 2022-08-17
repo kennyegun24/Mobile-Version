@@ -3,7 +3,7 @@
 # Kenny Portfolio
 
 > Mobile Portfolio
-> This is my mobile portfolio, show casing the mobile version of my portfolio and my work as a software developer.
+> This is my mobile portfolio, showcasing the mobile version of my portfolio and my work as a software developer.
 
 ## Built With
 
