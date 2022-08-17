@@ -38,7 +38,6 @@ header {
   font-family: "crete-round";
   color: #ff6b00;
   letter-spacing: 0.37px;
-  margin-bottom: 0px;
 }
 
 .bout {
@@ -60,6 +59,11 @@ header {
   font-size: 16px;
 }
 
-.svg {
-  padding-right: 10px;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1c1a19;
+  padding-left: 24px;
+  margin-top: -220px;
 }
