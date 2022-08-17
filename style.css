@@ -2,11 +2,15 @@ header {
   background: #3c3a39;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 24px;
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.name a {
   color: #fff;
 }
 
