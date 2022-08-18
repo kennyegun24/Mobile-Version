@@ -75,7 +75,8 @@ ul {
 .works {
   background: #fff;
   display: grid;
-  padding: 0px 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .img {
@@ -172,7 +173,7 @@ button {
 }
 
 .pro h3 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -253,6 +254,7 @@ button {
   line-height: 24px;
   width: 100%;
 }
+
 .but {
   display: flex;
   align-items: center;
