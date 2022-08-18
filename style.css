@@ -157,12 +157,12 @@ button {
 }
 
 .btn:active {
-  background: #E05304;
+  background: #e05304;
 }
 
 .btn:hover {
   background: #fff;
-  color: #E05304;
+  color: #e05304;
 }
 
 .btn:disabled {
@@ -217,12 +217,12 @@ a.btn2 {
 }
 
 .btn2:active {
-  background: #E05304;
+  background: #e05304;
 }
 
 .btn2:hover {
   background: #fff;
-  color: #E05304;
+  color: #e05304;
 }
 
 .btn2:disabled {
@@ -291,16 +291,16 @@ a.btn2 {
   display: flex;
 }
 
-.btn3:active{
-  background: #E05304;
+.btn3:active {
+  background: #e05304;
 }
 
 .btn3:hover {
   background: #fff;
-  color: #E05304;
+  color: #e05304;
 }
 
-.btn3:disabled{
+.btn3:disabled {
   background: #f4f5f7;
   color: #1c1a19;
 }
@@ -310,9 +310,8 @@ a.btn2 {
   align-items: center;
   justify-content: space-between;
   background: #1c1a19;
-  padding-left: 4px;
-  margin-top: -100px;
   padding-left: 24px;
+  margin-top: -100px;
 }
 
 .div {
@@ -343,7 +342,6 @@ a.btn2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   padding-right: 10px;
-  
 }
 
 .ke {
