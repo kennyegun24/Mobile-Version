@@ -1,3 +1,9 @@
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
 header {
   background: #3c3a39;
 }
@@ -31,8 +37,20 @@ ul {
   background: #1c1a19;
   padding-top: 30px;
   padding-left: 24px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   padding-right: 24px;
+  margin-bottom: 50px;
+  background-image: url('./illustration-header-mobile.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: bottom right;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-left: -45px;
 }
 
 .intro {
@@ -61,15 +79,6 @@ ul {
   color: #fff;
   font-family: "poppins", serif;
   font-size: 16px;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #1c1a19;
-  padding-left: 24px;
-  margin-top: -220px;
 }
 
 .works {
@@ -154,19 +163,22 @@ button {
   font-size: 17px;
   line-height: 24px;
   display: flex;
-}
-
-.btn:active {
-  background: #e05304;
+  text-align: center;
+  justify-content: center;
 }
 
 .btn:hover {
   background: #fff;
-  color: #e05304;
+  color: #ff6b00;
+}
+
+.btn:active {
+  background: #e05304;
+  color: #fff;
 }
 
 .btn:disabled {
-  background: #f4f5f7;
+  background: #fff;
   color: #1c1a19;
 }
 
@@ -216,17 +228,18 @@ a.btn2 {
   justify-content: center;
 }
 
-.btn2:active {
-  background: #e05304;
-}
-
 .btn2:hover {
   background: #fff;
-  color: #e05304;
+  color: #ff6b00;
+}
+
+.btn2:active {
+  background: #e05304;
+  color: #fff;
 }
 
 .btn2:disabled {
-  background: #f4f5f7;
+  background: #fff;
   color: #1c1a19;
 }
 
@@ -255,6 +268,11 @@ a.btn2 {
   background: #1c1a19;
   padding-top: 12px;
   margin-top: 60px;
+  padding-bottom: 90px;
+  background-image: url('./illustration-about-me-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: bottom right;
 }
 
 .me {
@@ -287,21 +305,27 @@ a.btn2 {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  width: 100%;
-  display: flex;
+  padding-right: 24px;
 }
 
-.btn3:active {
-  background: #e05304;
+.bu {
+  text-align: left;
+  padding-right: 30px;
+  margin-left: -40px;
 }
 
 .btn3:hover {
   background: #fff;
-  color: #e05304;
+  color: #ff6b00;
+}
+
+.btn3:active {
+  background: #e05304;
+  color: #fff;
 }
 
 .btn3:disabled {
-  background: #f4f5f7;
+  background: #fff;
   color: #1c1a19;
 }
 
@@ -311,7 +335,7 @@ a.btn2 {
   justify-content: space-between;
   background: #1c1a19;
   padding-left: 24px;
-  margin-top: -100px;
+  margin-top: 100px;
 }
 
 .div {
@@ -322,6 +346,7 @@ a.btn2 {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  padding-left: 10px;
 }
 
 .hin {
@@ -341,7 +366,7 @@ a.btn2 {
   line-height: 43px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  padding-right: 10px;
+  padding-left: 25px;
 }
 
 .ke {
@@ -374,4 +399,4 @@ a.btn2 {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
+} 
