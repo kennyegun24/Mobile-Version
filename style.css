@@ -1,7 +1,7 @@
-html,body {
-  margin:0;
-  padding:0;
-  overflow-x:hidden;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -399,4 +399,4 @@ a.btn2 {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-} 
+}
