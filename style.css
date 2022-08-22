@@ -460,8 +460,12 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px;
+  border-bottom: 1px rgb(168, 166, 166) solid;
   height: 30px;
+}
+
+.iam input{
+  width: 250px;
 }
 
 textarea {
