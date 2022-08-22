@@ -472,7 +472,7 @@ textarea {
   margin-left: -20px;
 }
 
-textarea [type="textarea"]::placeholder { 
+textarea [type="textarea"]::placeholder {
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -524,7 +524,7 @@ textarea [type="textarea"]::placeholder {
   fill: #cfcfcf;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .cont {
     display: flex;
     flex-wrap: nowrap;
@@ -732,7 +732,7 @@ textarea [type="textarea"]::placeholder {
     padding-left: 10%;
     margin-left: -15px;
   }
-  
+
   .uu {
     justify-content: center;
     text-align: center;
