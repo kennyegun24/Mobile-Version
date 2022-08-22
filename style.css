@@ -467,12 +467,12 @@ input {
 textarea {
   font: 1em sans-serif;
   border: none;
-  background: #FBF8F7;
+  background: #fbf8f7;
   width: 300px;
   margin-left: -20px;
 }
 
-textarea [type="textarea"]::placeholder {  
+textarea [type="textarea"]::placeholder { 
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -524,7 +524,7 @@ textarea [type="textarea"]::placeholder {
   fill: #cfcfcf;
 }
 
-@media ( min-width: 768px ){
+@media (min-width: 768px){
   .cont {
     display: flex;
     flex-wrap: nowrap;
@@ -536,7 +536,7 @@ textarea [type="textarea"]::placeholder {
 
   .bag {
     width: 33.333%;
-    padding: 0px;
+    padding: none;
   }
 
   .kenny {
@@ -555,13 +555,12 @@ textarea [type="textarea"]::placeholder {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2px 4px;
+    padding: 4px 4px;
     gap: 10px;
     background: #ff6b00;
     width: 100px;
     height: 30px;
     margin-bottom: 10px;
-    padding: 4px 4px;
   }
 
   .pp {
@@ -594,13 +593,14 @@ textarea [type="textarea"]::placeholder {
     padding-left: 10%;
   }
 
-  .ab{
+  .ab {
     text-align: left;
   }
 
   .bu {
     padding-left: 10%;
   }
+
   .info {
     width: 400px;
     line-height: 32px;
@@ -619,10 +619,9 @@ textarea [type="textarea"]::placeholder {
   .kk {
     padding-left: 10%;
     padding-right: 10%;
-
   }
 
-  .kk h2  {
+  .kk h2 {
     justify-content: left;
     text-align: left;
   }
@@ -659,11 +658,6 @@ textarea [type="textarea"]::placeholder {
   }
 
   .bout {
-    padding-left: 10%;
-    margin-left: -15px;
-  }
-
-  .hey {
     padding-left: 10%;
     margin-left: -15px;
   }
@@ -716,10 +710,6 @@ textarea [type="textarea"]::placeholder {
     gap: 10px;
   }
 
-  .main-header {
-    align-items: center;
-  }
-
   .main-header a {
     color: #fff;
   }
@@ -727,17 +717,20 @@ textarea [type="textarea"]::placeholder {
   .main-header {
     padding-left: 10%;
     padding-right: none;
+    align-items: center;
   }
 
   .hey {
     width: 566px;
     height: 123px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
+    padding-left: 10%;
+    margin-left: -15px;
   }
   
   .uu {
