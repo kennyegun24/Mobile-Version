@@ -522,7 +522,7 @@ textarea [type="textarea"]::placeholder {
 }
 
 .uu svg path {
-  fill: #505F79;
+  fill: #505f79;
 }
 
 .flex svg path {
@@ -541,7 +541,7 @@ textarea [type="textarea"]::placeholder {
 
   .bag {
     width: 33.333%;
-    padding: 0px;
+    padding: none;
   }
 
   .kenny {
