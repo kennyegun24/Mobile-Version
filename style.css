@@ -3,19 +3,19 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-  
+
 header {
   background: #3c3a39;
 }
-  
+
 a {
   text-decoration: none;
 }
-  
+
 ul {
   list-style-type: none;
 }
-  
+
 .name a {
   color: #fff;
 }
@@ -34,7 +34,7 @@ ul {
 }
 
 .bags {
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -42,7 +42,7 @@ ul {
 }
 
 .bagged {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -267,8 +267,8 @@ button {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(./image1.jpeg) center center;
-    padding-top: 50px;
-    color: #fff;
+  padding-top: 50px;
+  color: #fff;
 }
 
 .pro {
@@ -427,7 +427,6 @@ a.btn2 {
   padding-left: 10px;
 }
 
-
 .foot {
   justify-content: center;
   padding: 12px 24px;
@@ -436,7 +435,7 @@ a.btn2 {
 .aa {
   flex-wrap: wrap;
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 .aa div {
@@ -745,8 +744,7 @@ textarea [type="textarea"]::placeholder {
     line-height: 32px;
     color: #F4F5F7;
   }
-
-
+  
   .uu {
     justify-content: center;
     text-align: center;
@@ -755,8 +753,8 @@ textarea [type="textarea"]::placeholder {
   }
 }
 
-@media ( min-width: 1280px) {
-  .cont{
+@media (min-width: 1280px) {
+  .cont {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -781,12 +779,11 @@ textarea [type="textarea"]::placeholder {
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: right;
-    }
+  }
 
   .uu {
     justify-content: center;
     text-align: center;
     padding-right: 10%;
   }
-
 }
