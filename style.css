@@ -452,7 +452,7 @@ a.btn2 {
   font-size: 24px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   display: inline-block;
 }
 
@@ -462,11 +462,6 @@ input {
   border-right: none;
   border-bottom: 1px;
   height: 30px;
-}
-
-.ee {
-  margin-left: -20px;
-  width: 300px;
 }
 
 textarea {
