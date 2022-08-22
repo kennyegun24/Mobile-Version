@@ -37,7 +37,7 @@ ul {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 44px;
 }
 
@@ -452,7 +452,7 @@ a.btn2 {
   font-size: 24px;
   line-height: 44px;
   text-align: center;
-  color: #172b4d;
+  color: #262626;
   display: inline-block;
 }
 
@@ -466,6 +466,7 @@ input {
 
 .iam input {
   width: 250px;
+  margin-left: -20px;
 }
 
 textarea {
@@ -521,7 +522,7 @@ textarea [type="textarea"]::placeholder {
 }
 
 .uu svg path {
-  fill: #1c1a19;
+  fill: #505F79;
 }
 
 .flex svg path {
@@ -540,7 +541,7 @@ textarea [type="textarea"]::placeholder {
 
   .bag {
     width: 33.333%;
-    padding: none;
+    padding: 0px;
   }
 
   .kenny {
