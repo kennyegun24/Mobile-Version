@@ -50,9 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Codes written by me. Template provided by Microverse
 
 ## 📝 License
 
