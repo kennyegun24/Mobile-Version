@@ -328,11 +328,11 @@ a.btn2 {
   font-family: "Inter", sans-serif;
 }
 
-p.pro{
+p.pro {
   font-weight: 400;
-font-size: 17px;
-line-height: 24px;
-font-family: 'inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'inter', sans-serif;
 }
 
 .pr {
@@ -537,10 +537,10 @@ textarea [type="textarea"]::placeholder {
 
 @media (min-width: 768px) {
   .sl {
-    transition:opacity 0.2s;
+    transition: opacity 0.2s;
   }
 
-  .pi{
+  .pi {
     margin-right: 100px;
   }
 
@@ -767,7 +767,7 @@ textarea [type="textarea"]::placeholder {
     margin-left: -15px;
   }
 
-  p.hey{
+  p.hey {
     width: 500px;
   }
 
