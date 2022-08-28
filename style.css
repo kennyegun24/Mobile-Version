@@ -254,7 +254,7 @@ nav h2 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -400,13 +400,14 @@ nav h2 {
 }
 
 .pro {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');
   background-position: center;
   background-size: cover;
   height: 386px;
   width: 100%;
   margin: auto;
 }
+
 .pro1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -468,11 +469,12 @@ nav h2 {
   background: #e05304;
   color: #fff;
 }
-  
+
 .btn2:disabled {
   background: #fff;
   color: #1c1a19;
 }
+
 /* ------!--------- */
 
 .about {
@@ -501,7 +503,7 @@ nav h2 {
 }
 
 .btn3 {
-  padding: 12px ;
+  padding: 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -517,13 +519,13 @@ nav h2 {
   background: #fff;
   color: #ff6b00;
 }
-  
+
 .btn3:active {
   background: #e05304;
   color: #fff;
 }
-  
-  .btn3:disabled {
+
+.btn3:disabled {
   background: #fff;
   color: #1c1a19;
 }
@@ -624,7 +626,7 @@ nav h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  padding: 0px 24px;
+  padding: 1px 24px;
   margin-top: 100px;
   text-align: center;
   color: #172b4d;
@@ -688,7 +690,7 @@ textarea:focus {
 
 @media (min-width: 765px) {
   .menu.in-active {
-    padding-top: 0px;
+    padding-top: 1px;
     display: flex;
     position: inherit;
     height: 0;
@@ -743,7 +745,7 @@ textarea:focus {
     margin-top: 30px;
     padding-top: 30px;
   }
-    
+
   .hello {
     padding: 1px 5%;
     width: 50%;
@@ -758,7 +760,7 @@ textarea:focus {
     margin-top: 20px;
     background-image: url('./bottombgdesk.svg');
     background-repeat: no-repeat;
-    background-position:center right;
+    background-position: center right;
     background-size: 300px;
     height: 400px;
   }
@@ -769,31 +771,31 @@ textarea:focus {
     flex-wrap: wrap;
   }
 
-  .prof div{ 
+  .prof div{
     flex-grow: 1;
     margin: 2px 2px;
     flex-basis: 30%;
   }
 
   .pro {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');
     background-position: center;
     background-size: cover;
     height: 350px;
   }
 
   .pro:hover {
-    background-image: url('./image1.jpeg');;
+    background-image: url('./image1.jpeg');
     background-position: center;
     background-size: cover;
   }
 
-  .fh:hover {
-    opacity: 0;
-  }
-
   .fh {
     transition: all 0.3s ease-in-out;
+  }
+
+  .fh:hover {
+    opacity: 0;
   }
 
   .h1 {
@@ -809,7 +811,7 @@ textarea:focus {
     color: #ff6b00;
   }
 
- nav h2 a:hover {
+  nav h2 a:hover {
     color: #ff6b00;
     font-size: 26px;
   }
@@ -820,6 +822,14 @@ textarea:focus {
 
   .section1 {
     display: flex;
+    background-image: url('./desktoptop.svg');
+    background-repeat: no-repeat;
+    background-position:  right;
+    padding-top: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 400px;
+    background-size: 300px;
   }
 
   .btn2 {
@@ -861,7 +871,7 @@ textarea:focus {
     width: 90%;
   }
 
-  .my:after {
+  .my::after {
     background-color: black;
     height: 2px;
     width: 50%;
@@ -877,16 +887,6 @@ textarea:focus {
     display: none;
   }
 
-  .section1 {
-    background-image: url('./desktoptop.svg');
-    background-repeat: no-repeat;
-    background-position:  right;
-    padding-top: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 400px;
-    background-size: 300px;
-  }
   .h1 {
     font-weight: 400;
     font-family: 'crete round', sans-serif;
