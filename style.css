@@ -155,7 +155,7 @@ nav h2 {
   background: #3e3e3c;
   width: 100%;
   left: 0;
-  top: 0px;
+  top: 0;
   transition: all 0.4s ease-in-out;
 }
 
@@ -281,7 +281,7 @@ nav h2 {
   color: #1c1a19;
 }
 
-  /* ----------!--------- */
+/* ----------!--------- */
 
 .second {
   margin-bottom: 30px;
@@ -297,7 +297,7 @@ nav h2 {
 
 .burg {
   cursor: pointer;
-} 
+}
 
 .bur1 {
   height: 2px;
@@ -337,7 +337,7 @@ nav h2 {
   width: 100%;
   margin-bottom: 20px;
 }
-  
+
 .p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -345,10 +345,12 @@ nav h2 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-bottom: 20px;
 }
 
 .see {
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .bottom {
@@ -372,12 +374,11 @@ nav h2 {
   padding: 12px 12px;
   border: 1px solid black;
   border-radius: 10px;
-  margin-bottom: 20px;
   box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
   width: 90%;
   margin: auto;
   background: #fff;
-  }
+}
 
 .biew {
   padding: 12px 20px;
@@ -389,15 +390,7 @@ nav h2 {
   display: none;
 }
 
-.p {
-  margin-bottom: 20px;
-}
-
-.see {
-  margin-bottom: 20px;
-}
-
-  /* ---------!-------- */
+/* ---------!-------- */
 
 .prof {
   padding-left: 24px;
@@ -712,10 +705,10 @@ textarea:focus {
     flex-wrap: nowrap;
   }
 
-    .foot h2 {
-        padding-left: 5%;
-        text-align: left;
-    }
+  .foot h2 {
+    padding-left: 5%;
+    text-align: left;
+  }
 
   .submit {
     justify-content: left;
