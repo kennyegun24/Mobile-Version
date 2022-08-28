@@ -771,7 +771,7 @@ textarea:focus {
     flex-wrap: wrap;
   }
 
-  .prof div{
+  .prof div {
     flex-grow: 1;
     margin: 2px 2px;
     flex-basis: 30%;
@@ -796,6 +796,13 @@ textarea:focus {
 
   .fh:hover {
     opacity: 0;
+  }
+
+  .h1 {
+    font-weight: 400;
+    font-family: 'crete round', sans-serif;
+    font-size: 56px;
+    width: 50%;
   }
 
   .h1 {
@@ -824,7 +831,7 @@ textarea:focus {
     display: flex;
     background-image: url('./desktoptop.svg');
     background-repeat: no-repeat;
-    background-position:  right;
+    background-position: right;
     padding-top: 150px;
     padding-left: 5%;
     padding-right: 5%;
@@ -887,13 +894,6 @@ textarea:focus {
     display: none;
   }
 
-  .h1 {
-    font-weight: 400;
-    font-family: 'crete round', sans-serif;
-    font-size: 56px;
-    width: 50%;
-  }
-
   .help {
     width: 70%;
   }
@@ -906,7 +906,7 @@ textarea:focus {
   .menu {
     display: flex;
     position: inherit;
-    padding-top: 0px;
+    padding-top: 1px;
   }
 
   .list {
@@ -933,7 +933,7 @@ textarea:focus {
     width: 90%;
     padding-left: 7%;
   }
-    
+
   .mod {
     padding-left: 5%;
   }
@@ -941,7 +941,7 @@ textarea:focus {
   .se {
     padding-left: 3%;
   }
-    
+
   .lang2 {
     padding-left: 3%;
   }
@@ -955,12 +955,12 @@ textarea:focus {
   }
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .bg {
     margin-top: 20px;
     background-image: url('./bottombgdesk.svg');
     background-repeat: no-repeat;
-    background-position:top right;
+    background-position: top right;
     background-size: 500px;
     height: 400px;
   }
@@ -973,7 +973,7 @@ textarea:focus {
     width: 90%;
   }
 
-  .my:after {
+  .my::after {
     background-color: black;
     height: 2px;
     width: 65%;
@@ -988,12 +988,12 @@ textarea:focus {
   .section1 {
     background-image: url('./desktoptop.svg');
     background-repeat: no-repeat;
-    background-position:  right;
+    background-position: right;
     padding-top: 150px;
-
     height: 400px;
     background-size: 500px;
   }
+  
   .h1 {
     font-weight: 400;
     font-family: 'crete round', sans-serif;
