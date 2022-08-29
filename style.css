@@ -803,9 +803,6 @@ textarea:focus {
     font-family: 'crete round', sans-serif;
     font-size: 56px;
     width: 50%;
-  }
-
-  .h1 {
     text-shadow: #acb7c3 2px 2px;
   }
 
@@ -993,7 +990,7 @@ textarea:focus {
     height: 400px;
     background-size: 500px;
   }
-  
+
   .h1 {
     font-weight: 400;
     font-family: 'crete round', sans-serif;
