@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://kennyegun24.github.io/Mobile-Version/#works)
 
 ## Getting Started
 
@@ -21,16 +21,15 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+**Tap on the code option in the repo, then you copy the link to the repo provided**
 ### Setup
-
+**Open your git bash or your IDE terminal then use the git command to clone it to your machine**
 ### Install
-
+**The folder will then be installed in your machine.**
 ### Usage
-
+**You can edit codes and make changes, dont forget to give credits to me**
 ### Run tests
-
-### Deployment
+**Linters are already setup in the repo for error checks**
 
 ## Authors
 
@@ -42,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kennyegun24/Mobile-Version/issues).
 
 ## Show your support
 
