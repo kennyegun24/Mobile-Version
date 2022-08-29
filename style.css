@@ -668,6 +668,14 @@ nav h2 {
   display: inline-block;
 }
 
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px rgb(168, 166, 166) solid;
+  height: 30px;
+}
+
 .xam input {
   width: 250px;
   margin-left: -20px;
@@ -675,14 +683,6 @@ nav h2 {
 
 .pp {
   text-align: center;
-}
-
-input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px rgb(168, 166, 166) solid;
-  height: 30px;
 }
 
 textarea {
@@ -750,7 +750,7 @@ textarea {
     margin-top: 100px;
     width: 100%;
   }
-  
+
   .lis {
     display: block;
     padding-top: 15px;
@@ -759,6 +759,10 @@ textarea {
 
   .lang li {
     transition: all 0.6s ease-in-out;
+  }
+
+  .languages li {
+    text-align: left;
   }
 
   .lang li:hover {
@@ -775,16 +779,7 @@ textarea {
     margin-left: 35px;
   }
 
-
   .yy textarea:focus {
-    border: 2px solid #ff6b00;
-    border-radius: 5px;
-    outline: #ff6b00;
-    background: #f5ece6;
-    background-color: none;
-  }
-
-  .xam input:focus {
     border: 2px solid #ff6b00;
     border-radius: 5px;
     outline: #ff6b00;
@@ -794,7 +789,15 @@ textarea {
 
   .xam input {
     padding-bottom: 10px;
-    margin-left: 20px
+    margin-left: 20px;
+  }
+
+  .xam input:focus {
+    border: 2px solid #ff6b00;
+    border-radius: 5px;
+    outline: #ff6b00;
+    background: #f5ece6;
+    background-color: none;
   }
 
   .ab {
@@ -829,10 +832,6 @@ textarea {
 
   .languages {
     margin-top: 60px;
-  }
-
-  .languages li {
-    text-align: left;
   }
 
   .but3 {
@@ -933,7 +932,6 @@ textarea {
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
   }
-  
 
   nav h2 a:hover {
     color: #ff6b00;
