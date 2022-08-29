@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kenny Elias Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,17 +14,17 @@
 
     <header>
         <nav class="nav flex greybg align justbtw">
-            <h2><a class="white" href="#">Kenny Elias</a></h2>
+            <h2><a class="white pen" href="#">Kenny Elias</a></h2>
             <ul class="menu">
-                <li class="list white"><a class="white" href="#home">Home</a></li>
+                <li class="list list1 white"><a class="white" href="#home">Home</a></li>
                 
-                <li class="list white"><a class="white" href="#works">Portfolio</a></li>
+                <li class="list list2 white"><a class="white" href="#works">Portfolio</a></li>
                 
-                <li class="list white"><a class="white" href="#contact">Contact Us</a></li>
+                <li class="list list4 white"><a class="white" href="#contact">Contact Us</a></li>
                 
-                <li class="list white"><a class="white" href="#about">About</a></li>
+                <li class="list list3 white"><a class="white" href="#about">About</a></li>
                 
-                <li class="lis white"><img src="enve.svg" alt=""></li>
+                <li class="lis white"><a href=""><img src="enve.svg" alt=""></a></li>
             </ul>
             <div class="ham">
                 <div class="ham1"></div>
@@ -39,7 +39,7 @@
             <div class="fess">
                 <h1 class="h1 orange">Hey There. I'm Kenny!</h1>
                 <h2 class="Iam white">I'am a Software Developer</h2>
-                <p class="help white">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+                <p class="help white">I'm Kenny, I am a Software Developer. I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             </div>
             
             <div class="fes">
@@ -65,7 +65,7 @@
                     <img class="img1" src="image.jpeg" alt="">
                     <div>
                         <h2 class="mi wrap black">Multi-Post Stories</h2>
-                        <p class="black daily">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                        <p class="black daily">A dummy webpage designed for a friend clothing brand. Just a design, no login data, no forms, no interractiveness, just a dummy webpage.</p>
                         <ul class="flex lang">
                             <li>CSS</li>
                             <li>JavaScript</li>
@@ -221,7 +221,7 @@
         <section class="about blackbg" id="about">
             <div class="bg">
                 <h2 class="orange abtme">About me</h2>
-                <p class="white hello">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <p class="white hello">Hello I’m a software developer! I can help you build any website with multi functions. You can look at some of my works to see some of my products and websites. If you like what I have and you have any project you need coded, hit  me up by dropping your information below.</p>
                 <div class="but3">
                     <a href="#" class="orangebg white btn3">My Resume</a>
                 </div>
@@ -254,19 +254,32 @@
             </div>
         </section>
 
-        <footer id="contact">
-            <div class="foot flex wrap">
-                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-                <form action="https://formspree.io/f/meqdojoz" method="POST">
-                    <ul>
-                        <li class="name"><input type="text" maxlength="30" size="40" name="name" placeholder="Name" required></li>
+        <footer class="foot" id="contact">
+            <div class="aa">
+                <div class="ab">
+                    <h2>I'm open up to any type of project. I'm also available for hire both full-time and part-time jobs. <br> Send a message if you have anything you want to work on ;).</h2>
+                </div>
+
+                <div class="gg">
+                    <form action="https://formspree.io/f/meqdojoz" method="post">
+                        <ul>
+                            <li class="xam">
+                                <input type="text" id="name" name="name" placeholder="Full name" size="30" required maxlength="30">
+                            </li>
                         
-                        <li class="email"><input type="email" name="email" size="40" placeholder="Enter your Email" required></li>
+                            <li class="xam">
+                                <input type="email" id="mail" name="email" placeholder="Email address" size="30" required>
+                            </li>
                         
-                        <li class="textarea"><textarea name="textarea" id="textarea" cols="40" rows="10" placeholder="Enter message" required></textarea></li>
-                        <li class="submit"><input class="sub white" type="submit" name="submit" value="Send message"></li>
-                    </ul>
-                </form>
+                            <li class="yy">
+                                <textarea id="textarea" name="user_message" placeholder="Enter text here" rows="6" cols="10" required maxlength="500"></textarea>
+                            </li>
+                        </ul>
+                        <div class="pp">
+                            <input class="bl" name="submit" type="submit" value="Get in touch">
+                        </div>
+                    </form>
+                </div>
             </div>
             <hr class="btline">
             <ul class="flex bottom">
