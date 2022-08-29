@@ -720,7 +720,7 @@ textarea:focus {
   .submit {
     justify-content: left;
     text-align: left;
-    padding-left: 24px;
+    padding-left: 30px;
   }
 
   .languages {
