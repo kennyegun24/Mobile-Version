@@ -21,15 +21,15 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Tap on the code option in the repo, then you copy the link to the repo provided
+**Tap on the code option in the repo, then you copy the link to the repo provided**
 ### Setup
-Open your git bash or your IDE terminal then use the git command to clone it to your machine
+**Open your git bash or your IDE terminal then use the git command to clone it to your machine**
 ### Install
-The folder will then be installed in your machine.
+**The folder will then be installed in your machine.**
 ### Usage
-You can edit codes and make changes, dont forget to give credits to me
+**You can edit codes and make changes, dont forget to give credits to me**
 ### Run tests
-Linters are already setup in the repo for error checks
+**Linters are already setup in the repo for error checks**
 
 ## Authors
 
