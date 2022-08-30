@@ -751,6 +751,11 @@ textarea {
     width: 100%;
   }
 
+  .mi{
+    font-size: 35px;
+    font-weight: bold;
+  }
+
   .lis {
     display: block;
     padding-top: 15px;
@@ -991,6 +996,8 @@ textarea {
     padding-left: 5%;
     padding-right: 1px;
     width: 90%;
+    font-size: 45px;
+    font-weight: bold;
   }
 
   .my::after {
