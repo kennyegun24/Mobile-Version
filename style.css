@@ -183,7 +183,7 @@ nav h2 {
 
 .Iam {
   font-family: 'Roboto', sans-serif;
-  font-size: 24;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -727,7 +727,6 @@ textarea {
   border-radius: 5px;
   outline: #ff6b00;
   background: #f5ece6;
-  background-color: none;
 }
 
 .xam input:focus {
@@ -735,7 +734,6 @@ textarea {
   border-radius: 5px;
   outline: #ff6b00;
   background: #f5ece6;
-  background-color: none;
 }
 
 #spanName {
@@ -864,7 +862,6 @@ textarea {
     border-radius: 5px;
     outline: #ff6b00;
     background: #f5ece6;
-    background-color: none;
   }
 
   .xam input {
@@ -877,7 +874,6 @@ textarea {
     border-radius: 5px;
     outline: #ff6b00;
     background: #f5ece6;
-    background-color: none;
   }
 
   .ab {
