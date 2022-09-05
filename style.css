@@ -801,11 +801,11 @@ textarea {
 
   #submitError {
     position: absolute;
-    right: -35px;
+    right: 520px;
   }
 
   #spanText {
-    position: absolute;
+    position: relative;
     top: -30px;
     right: -250px;
   }
