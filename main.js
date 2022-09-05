@@ -13,21 +13,9 @@ ham.addEventListener('click', () => {
   menu.classList.toggle('in-active');
 });
 
-// creating a loop for list items to close window on click
-// console.log([...lists])
-const spreadList = [...lists];
-spreadList.forEach((list) => {
-  list.addEventListener('click', () => {
-    ham.classList.toggle('active');
-    menu.classList.toggle('in-active');
-  });
-});
-// for (const list of lists) {
-//   list.addEventListener('click', () => {
-//     ham.classList.toggle('active');
-//     menu.classList.toggle('in-active');
-//   });
-// }
+
+
+
 
 // --------------------------Button toggle ends------------------------------
 
