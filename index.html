@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -20,11 +21,9 @@
                 
                 <li class="list list2 white"><a class="white" href="#works">Portfolio</a></li>
                 
-                <li class="list list4 white"><a class="white" href="#contact">Contact Us</a></li>
+                <li class="list list4 white"><a class="white" href="#contact">Contact</a></li>
                 
                 <li class="list list3 white"><a class="white" href="#about">About</a></li>
-                
-                <li class="lis white"><a href=""><img src="enve.svg" alt=""></a></li>
             </ul>
             <div class="ham">
                 <div class="ham1"></div>
@@ -262,20 +261,24 @@
                     <form action="https://formspree.io/f/meqdojoz" method="post">
                         <ul>
                             <li class="xam">
-                                <input type="text" id="name" name="name" placeholder="Full name" size="30" required maxlength="30">
+                                <input onkeyup="nameErr()" type="text" class="name" id="name" name="name" placeholder="Full name" size="30"  maxlength="30">
                             </li>
+                            <span id="spanName"></span>
                         
                             <li class="xam">
-                                <input type="email" id="mail" name="email" placeholder="Email address" size="30" required>
+                                <input  onkeyup="emailError()" type="email" id="email" class="email" name="email" placeholder="Email address" size="30">
                             </li>
+                            <span id="spanMail"></span>
                         
                             <li class="yy">
-                                <textarea id="textarea" name="user_message" placeholder="Enter text here" rows="6" cols="10" required maxlength="500"></textarea>
+                                <textarea onkeyup="textareaError()" class="textarea" id="textarea" name="user_message" placeholder="Enter text here" rows="6" cols="10"  maxlength="500"></textarea>
                             </li>
+                            <span id="spanText"></span>
                         </ul>
                         <div class="pp">
-                            <input class="bl" name="submit" type="submit" value="Get in touch">
+                            <input class="bl" id="submit" onclick="return validateForm()" name="submit" type="submit" value="Get in touch">
                         </div>
+                        <span id="submitError"></span>
                     </form>
                 </div>
             </div>
