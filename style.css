@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .align {
   align-items: center;
 }
@@ -60,8 +64,10 @@ a {
 }
 
 nav {
-  position: relative;
-  padding: 12px 24px;
+  position: fixed;
+  padding: 12px 5%;
+  width: 90%;
+  left: 0;
 }
 
 nav h2 {
@@ -112,10 +118,6 @@ nav h2 {
   opacity: 0;
 }
 
-.menu {
-  display: none;
-}
-
 .list {
   padding-left: 40px;
   font-size: 32px;
@@ -140,18 +142,6 @@ nav h2 {
 
 .lis {
   display: none;
-}
-
-.menu.in-active {
-  padding-top: 50px;
-  display: block;
-  position: absolute;
-  height: 700px;
-  background: #3e3e3c;
-  width: 100%;
-  left: 0;
-  top: 0;
-  transition: all 0.4s ease-in-out;
 }
 
 .section1 {
@@ -758,7 +748,26 @@ textarea {
   position: relative;
   right: -40%;
 }
+@media (max-width: 765px) {
+  
+.menu.in-active {
+  padding-top: 50px;
+  display: block;
+  position: absolute;
+  height: 700px;
+  background: #3e3e3c;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.4s ease-in-out;
+}
 
+.menu {
+  left: -100%;
+  position: absolute;
+}
+
+}
 @media (max-width: 350px) {
   .section1 {
     background-size: 100px;
@@ -770,7 +779,7 @@ textarea {
     position: fixed;
     z-index: 1;
     left: 0;
-    height: 100vh;
+    height: 110vh;
     top: 15px;
     display: none;
   }
@@ -888,20 +897,7 @@ textarea {
     display: flex;
     flex-wrap: nowrap;
   }
-
-  .menu.in-active {
-    padding-top: 1px;
-    display: flex;
-    position: inherit;
-    height: 0;
-    background: none;
-    width: 400px;
-    padding-right: 5%;
-    left: 0;
-    top: -20px;
-    transition: all 0.4s ease-in-out;
-  }
-
+  
   .foot {
     padding-left: 10%;
     margin-top: 80px;
@@ -1092,15 +1088,13 @@ textarea {
   }
 
   nav {
-    position: relative;
+    position: fixed;
     padding: 12px 5%;
   }
 
   .menu {
     display: flex;
-    position: inherit;
     padding-top: 1px;
-    left: 0;
   }
 
   .list {
