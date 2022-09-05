@@ -373,7 +373,9 @@ nav h2 {
   margin-bottom: 20px;
   box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
   width: 90%;
-  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   background: #fff;
 }
 
@@ -807,7 +809,7 @@ textarea {
     top: -30px;
     right: -250px;
   }
-  
+
   #spanName {
     position: relative;
     top: -35px;
