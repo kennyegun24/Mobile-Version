@@ -262,23 +262,27 @@
                         <ul>
                             <li class="xam">
                                 <input onkeyup="nameErr()" type="text" class="name" id="name" name="name" placeholder="Full name" size="30"  maxlength="30">
+                                <span id="spanName"></span>
                             </li>
-                            <span id="spanName"></span>
+
                         
                             <li class="xam">
                                 <input  onkeyup="emailError()" type="email" id="email" class="email" name="email" placeholder="Email address" size="30">
+                                <span id="spanMail"></span>
                             </li>
-                            <span id="spanMail"></span>
+
                         
                             <li class="yy">
                                 <textarea onkeyup="textareaError()" class="textarea" id="textarea" name="user_message" placeholder="Enter text here" rows="6" cols="10"  maxlength="500"></textarea>
+                                <span id="spanText"></span>
                             </li>
-                            <span id="spanText"></span>
+
                         </ul>
                         <div class="pp">
                             <input class="bl" id="submit" onclick="return validateForm()" name="submit" type="submit" value="Get in touch">
+                            <span id="submitError"></span>
                         </div>
-                        <span id="submitError"></span>
+                       
                     </form>
                 </div>
             </div>
