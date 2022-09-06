@@ -43,6 +43,13 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/kennyegun24/Mobile-Version/issues).
 
+ **Contributor**
+
+👤 **John Adibe**
+- GitHub: [@githubhandle](https://github.com/johnadibe)
+- Twitter: [@twitterhandle](https://twitter.com/JohnAdibe2)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/john-adibe-400b36166/)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -54,5 +61,3 @@ Codes written by me. Template provided by Microverse
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-\_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish.
