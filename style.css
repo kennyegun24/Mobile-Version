@@ -123,7 +123,7 @@ nav h2 {
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 80%;
   border-bottom: 2px solid #6f6c6b;
   margin: auto;
@@ -132,6 +132,7 @@ nav h2 {
 .list a {
   transition: all 0.3s ease-in-out;
   padding-right: 20px;
+  color: #fff5e1;
 }
 
 .hr {
@@ -751,15 +752,20 @@ textarea {
 
 @media (max-width: 765px) {
   .menu.in-active {
-    padding-top: 50px;
+    padding-top: 56px;
     display: block;
     position: absolute;
     height: 700px;
-    background: #3e3e3c;
+    background: #3c3a39;
     width: 100%;
     left: 0;
     top: 0;
     transition: all 0.4s ease-in-out;
+  }
+
+  .list {
+    line-height: 44px;
+    padding-top: 10px;
   }
 
   .menu {
