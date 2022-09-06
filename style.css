@@ -766,6 +766,7 @@ textarea {
   .list {
     line-height: 44px;
     padding-top: 12px;
+    margin-top: 5px;
   }
 
   .menu {
