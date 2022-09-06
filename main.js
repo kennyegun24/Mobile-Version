@@ -13,8 +13,8 @@ ham.addEventListener('click', () => {
   menu.classList.toggle('in-active');
 });
 
-const spreadLists = [...lists];
-spreadLists.forEach((list) => {
+const spreadList = [...lists];
+spreadList.forEach((list) => {
   list.addEventListener('click', () => {
     ham.classList.toggle('active');
     menu.classList.toggle('in-active');
