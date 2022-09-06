@@ -748,26 +748,26 @@ textarea {
   position: relative;
   right: -40%;
 }
+
 @media (max-width: 765px) {
-  
-.menu.in-active {
-  padding-top: 50px;
-  display: block;
-  position: absolute;
-  height: 700px;
-  background: #3e3e3c;
-  width: 100%;
-  left: 0;
-  top: 0;
-  transition: all 0.4s ease-in-out;
+  .menu.in-active {
+    padding-top: 50px;
+    display: block;
+    position: absolute;
+    height: 700px;
+    background: #3e3e3c;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menu {
+    left: -100%;
+    position: absolute;
+  }
 }
 
-.menu {
-  left: -100%;
-  position: absolute;
-}
-
-}
 @media (max-width: 350px) {
   .section1 {
     background-size: 100px;
@@ -897,7 +897,7 @@ textarea {
     display: flex;
     flex-wrap: nowrap;
   }
-  
+
   .foot {
     padding-left: 10%;
     margin-top: 80px;
