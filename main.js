@@ -23,6 +23,8 @@ spreadList.forEach((list) => {
 
 // --------------------------Button toggle ends------------------------------
 
+// ---------------- storing data in arrays -------------
+
 const projects = [{
   projectTitle2: 'Multi Post Stories',
   projectTitle: 'Professional works',
@@ -91,12 +93,15 @@ const projects = [{
   liveDemo: '',
 },
 ];
+// ----------- array ends ----------
 
 const modalSection = document.querySelector('.prof');
 const card = document.querySelector('.biew');
 const header = document.querySelector('.nav');
 const about = document.querySelector('.about');
 const works = document.querySelector('.hi');
+
+// --------------- iterating through the stored data --------------
 
 projects.forEach((project) => {
   const div = document.createElement('div');
@@ -171,6 +176,8 @@ projects.forEach((project) => {
   modalSection.append(div);
 });
 
+// ---------Form Validation--------------
+
 const nameError = document.querySelector('#spanName');
 const submitError = document.querySelector('#submitError');
 const emailErr = document.querySelector('#spanMail');
@@ -243,3 +250,37 @@ function validateForm() {
   return true;
 }
 validateForm();
+
+// --------------- storing data in local storage ---------
+
+// select the class of name input
+const Name = document.querySelector('.name');
+const NameValue = localStorage.getItem('formName');
+
+if (NameValue) {
+  Name.value = NameValue;
+}
+// select the class of email input
+const Email = document.querySelector('.email');
+const EmailValue = localStorage.getItem('formEmail');
+
+if (EmailValue) {
+  Email.value = EmailValue;
+}
+// select the class of textarea
+const Texted = document.querySelector('.textarea');
+const formTextValue = localStorage.getItem('formText');
+
+if (formTextValue) {
+  Texted.value = formTextValue;
+}
+
+Name.addEventListener('input', (e) => {
+  localStorage.setItem('formName', e.target.value);
+});
+Email.addEventListener('input', (e) => {
+  localStorage.setItem('formEmail', e.target.value);
+});
+Texted.addEventListener('input', (e) => {
+  localStorage.setItem('formText', e.target.value);
+});
