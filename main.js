@@ -170,3 +170,76 @@ projects.forEach((project) => {
 
   modalSection.append(div);
 });
+
+const nameError = document.querySelector('#spanName');
+const submitError = document.querySelector('#submitError');
+const emailErr = document.querySelector('#spanMail');
+const textErr = document.querySelector('#spanText');
+
+function nameErr() {
+  const names = document.querySelector('.name').value;
+  const name = document.querySelector('#name');
+  if (names.length === 0) {
+    nameError.innerHTML = 'Required';
+    nameError.style.color = 'red';
+    name.style.border = '1px solid red';
+    return false;
+  }
+  if (!names.match(/^[a-zA-Za]*\s[a-zA-Za]*$/)) {
+    nameError.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
+    nameError.style.color = 'red';
+    name.style.border = '1px solid red';
+    return false;
+  }
+  nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  nameError.style.color = 'green';
+  name.style.border = '1px solid green';
+  return true;
+}
+
+function emailError() {
+  const emails = document.querySelector('.email').value;
+  const email = document.querySelector('#email');
+  if (emails.length === 0) {
+    emailErr.innerHTML = 'Required';
+    emailErr.style.color = 'red';
+    email.style.border = '1px solid red';
+    return false;
+  }
+  if (!emails.match(/^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]*\.[a-z]+(?:\.[a-z-0-9-]+)*$/)) {
+    emailErr.innerHTML = '<i class="fa-solid fa-circle-xmark"></i> lowercase only ';
+    emailErr.style.color = 'red';
+    email.style.border = '1px solid red';
+    return false;
+  }
+  emailErr.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  emailErr.style.color = 'green';
+  email.style.border = '1px solid green';
+  return true;
+}
+
+function textareaError() {
+  const textareas = document.querySelector('.textarea').value;
+  const required = 30;
+  const left = required - textareas.length;
+  if (left > 0) {
+    textErr.innerHTML = `${left} <i class="fa-solid fa-circle-xmark"></i>`;
+    textErr.style.color = 'red';
+    return false;
+  }
+  textErr.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  textErr.style.color = 'green';
+  return true;
+}
+
+function validateForm() {
+  if (!nameErr() || !emailError() || !textareaError()) {
+    submitError.style.display = 'block';
+    submitError.innerHTML = 'please fix';
+    submitError.style.color = 'red';
+    setTimeout(() => { submitError.style.display = 'none'; }, 4000);
+    return false;
+  }
+  return true;
+}
+validateForm();
