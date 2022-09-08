@@ -171,7 +171,6 @@ projects.forEach((project) => {
   modalSection.append(div);
 });
 
-
 const nameError = document.querySelector('#spanName');
 const submitError = document.querySelector('#submitError');
 const emailErr = document.querySelector('#spanMail');
