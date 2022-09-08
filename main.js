@@ -84,7 +84,7 @@ const projects = [{
   projectTitle: 'Professional works',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
+  description2: 'Just a dummy webpage initially created to be my portfolio, created with just HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   technology: ['Bootstrap', 'Html', 'CSS'],
   sourceCode: '',
