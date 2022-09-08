@@ -68,6 +68,7 @@ nav {
   padding: 12px 5%;
   width: 90%;
   left: 0;
+  z-index: 1;
 }
 
 nav h2 {
@@ -368,6 +369,8 @@ nav h2 {
   margin-left: auto;
   margin-right: auto;
   background: #fff;
+  height: auto;
+  top: 30px;
 }
 
 .biew {
@@ -376,9 +379,13 @@ nav h2 {
   z-index: 1;
   left: 0;
   height: 100vh;
-  top: 40px;
+  top: 60px;
   display: none;
   overflow: scroll;
+}
+
+.mod {
+  height: 300px;
 }
 
 /* ---------!-------- */
@@ -727,30 +734,18 @@ textarea {
   background: #f5ece6;
 }
 
-#spanName {
-  position: relative;
-  top: -35px;
-  right: -225px;
-}
-
-#spanMail {
-  position: relative;
-  top: -35px;
-  right: -225px;
-}
-
-#spanText {
-  position: relative;
-  top: -30px;
-  right: -215px;
-}
-
-#submitError {
-  position: relative;
-  right: -40%;
-}
-
 @media (max-width: 765px) {
+  .biew {
+    padding: 12px 20px 30px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    margin-bottom: 10px;
+    top: 10px;
+    display: none;
+    overflow: scroll;
+  }
+
   .menu.in-active {
     padding-top: 56px;
     display: block;
@@ -773,22 +768,69 @@ textarea {
     left: -100%;
     position: absolute;
   }
+
+  #spanName {
+    position: absolute;
+  }
+
+  #spanMail {
+    position: relative;
+  }
+
+  #spanText {
+    position: relative;
+  }
 }
 
-@media (max-width: 350px) {
-  .section1 {
-    background-size: 100px;
-    height: 550px;
+@media (max-width: 365px) {
+  .second {
+    margin-bottom: 20px;
+  }
+
+  .se {
+    font-size: 24px;
+  }
+
+  .view {
+    padding: 12px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .mod {
+    height: 200px;
+    width: auto;
+    margin: auto;
   }
 
   .biew {
-    padding: 12px 20px;
+    padding: 12px 20px 30px 20px;
     position: fixed;
     z-index: 1;
     left: 0;
-    height: 110vh;
-    top: 15px;
+    margin-bottom: 10px;
+    top: 10px;
     display: none;
+    overflow: scroll;
+  }
+
+  .view img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .section1 {
+    background-size: 100px;
+    height: 550px;
   }
 
   #submitError {
@@ -798,20 +840,18 @@ textarea {
 }
 
 @media (min-width: 765px) {
+  textarea {
+    font: 1em sans-serif;
+    border: none;
+    background: #fbf8f7;
+    width: 265px;
+    margin-left: -20px;
+  }
+
   form {
     width: 200px;
     height: auto;
   }
-
-  /* .biew {
-    padding: 12px 20px;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    height: 100vh;
-    top: 20px;
-    display: none;
-  } */
 
   #submitError {
     position: absolute;
@@ -1139,6 +1179,8 @@ textarea {
 
   .mod {
     padding-left: 5%;
+    height: auto;
+    width: auto;
   }
 
   .se {
