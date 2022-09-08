@@ -369,7 +369,7 @@ nav h2 {
   margin-left: auto;
   margin-right: auto;
   background: #fff;
-  height: 80vh;
+  height: auto;
   top: 30px;
 }
 
@@ -379,7 +379,7 @@ nav h2 {
   z-index: 1;
   left: 0;
   height: 100vh;
-  top: 40px;
+  top: 60px;
   display: none;
 }
 
@@ -770,20 +770,55 @@ textarea {
   }
 }
 
-@media (max-width: 350px) {
-  .section1 {
-    background-size: 100px;
-    height: 550px;
+@media (max-width: 365px) {
+  .second {
+    margin-bottom: 20px;
+  }
+
+  .se {
+    font-size: 24px;
+  }
+
+  .view {
+    padding: 12px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .mod {
+    height: 200px;
+    width: auto;
+    margin: auto;
   }
 
   .biew {
-    padding: 12px 20px;
+    padding: 12px 20px 30px 20px;
     position: fixed;
     z-index: 1;
     left: 0;
-    height: 110vh;
-    top: 15px;
+    margin-bottom: 10px;
+    top: 10px;
     display: none;
+    overflow: scroll;
+  }
+
+  .view img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .section1 {
+    background-size: 100px;
+    height: 550px;
   }
 
   #submitError {
