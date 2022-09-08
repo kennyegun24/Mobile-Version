@@ -96,6 +96,7 @@ const modalSection = document.querySelector('.prof');
 const card = document.querySelector('.biew');
 const header = document.querySelector('.nav');
 const about = document.querySelector('.about');
+const works = document.querySelector('.hi');
 
 projects.forEach((project) => {
   const div = document.createElement('div');
@@ -125,6 +126,7 @@ projects.forEach((project) => {
     modalSection.style.filter = 'blur(2px)';
     header.style.filter = 'blur(2px)';
     about.style.filter = 'blur(3px)';
+    works.style.filter = 'blur(3px)';
     card.innerHTML = `
   <div class="view">
       <div class="second flex align justbtw">
@@ -162,6 +164,7 @@ projects.forEach((project) => {
       modalSection.style.filter = 'none';
       header.style.filter = 'none';
       about.style.filter = 'none';
+      works.style.filter = 'none';
     });
   });
 
