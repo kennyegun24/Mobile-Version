@@ -68,6 +68,7 @@ nav {
   padding: 12px 5%;
   width: 90%;
   left: 0;
+  z-index: 1;
 }
 
 nav h2 {
@@ -368,6 +369,8 @@ nav h2 {
   margin-left: auto;
   margin-right: auto;
   background: #fff;
+  height: 80vh;
+  top: 30px;
 }
 
 .biew {
@@ -378,7 +381,10 @@ nav h2 {
   height: 100vh;
   top: 40px;
   display: none;
-  overflow: scroll;
+}
+
+.mod {
+  height: 300px;
 }
 
 /* ---------!-------- */
@@ -727,29 +733,6 @@ textarea {
   background: #f5ece6;
 }
 
-#spanName {
-  position: relative;
-  top: -35px;
-  right: -225px;
-}
-
-#spanMail {
-  position: relative;
-  top: -35px;
-  right: -225px;
-}
-
-#spanText {
-  position: relative;
-  top: -30px;
-  right: -215px;
-}
-
-#submitError {
-  position: relative;
-  right: -40%;
-}
-
 @media (max-width: 765px) {
   .menu.in-active {
     padding-top: 56px;
@@ -772,6 +755,18 @@ textarea {
   .menu {
     left: -100%;
     position: absolute;
+  }
+
+  #spanName {
+    position: absolute;
+  }
+
+  #spanMail {
+    position: relative;
+  }
+
+  #spanText {
+    position: relative;
   }
 }
 
@@ -798,20 +793,18 @@ textarea {
 }
 
 @media (min-width: 765px) {
+  textarea {
+    font: 1em sans-serif;
+    border: none;
+    background: #fbf8f7;
+    width: 265px;
+    margin-left: -20px;
+  }
+
   form {
     width: 200px;
     height: auto;
   }
-
-  /* .biew {
-    padding: 12px 20px;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    height: 100vh;
-    top: 20px;
-    display: none;
-  } */
 
   #submitError {
     position: absolute;
@@ -1132,6 +1125,8 @@ textarea {
 
   .mod {
     padding-left: 5%;
+    height: auto;
+    width: auto;
   }
 
   .se {
