@@ -748,6 +748,31 @@ textarea {
 }
 
 @media (max-width: 765px) {
+  .language {
+    font-family: 'InaiMathi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: block;
+    align-items: center;
+  }
+
+  .Frameworks {
+    display: block;
+  }
+
+  .skills {
+    display: block;
+  }
+  
+  .languages ul {
+    text-align: center;
+    justify-content: center;
+    padding: 1px 24px;
+    width: 100%;
+  }
+
   .formSection {
     position: relative;
     width: 80%;
