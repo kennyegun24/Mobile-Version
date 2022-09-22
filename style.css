@@ -748,6 +748,47 @@ textarea {
 }
 
 @media (max-width: 765px) {
+  .formSection {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .name {
+    width: 100%;
+  }
+
+  #spanName {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+  }
+
+  #spanMail {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+  }
+
+  #spanText {
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+  }
+
+  .textarea {
+    width: 100%;
+  }
+
+  .pp {
+    display: flex;
+    justify-content: end;
+  }
+
   .biew {
     padding: 12px 20px 30px 20px;
     position: fixed;
@@ -780,18 +821,6 @@ textarea {
   .menu {
     left: -100%;
     position: absolute;
-  }
-
-  #spanName {
-    position: absolute;
-  }
-
-  #spanMail {
-    position: relative;
-  }
-
-  #spanText {
-    position: relative;
   }
 }
 
