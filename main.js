@@ -26,16 +26,29 @@ spreadList.forEach((list) => {
 // ---------------- storing data in arrays -------------
 
 const projects = [{
-  projectTitle2: 'Multi Post Stories',
-  projectTitle: 'Professional works',
-  projectImage: 'secondpage.svg',
+  projectTitle2: 'Futuristic Gyms',
+  projectTitle: 'Futuristic Gyms',
+  projectImage: 'futuristicGymsDesktop.png',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css'],
+  description2: 'A capstone project built by me. Webpage built based on a new gym launch. The website was created with html, pure CSS and pure JavaScript. No framework or library used in the project. You can check the soure and also view the live demo of the project by clicking on any of the buttons below',
+  description: 'A capstone project built by me. Webpage built based on a new gym launch. The website was created with html, pure CSS and pure JavaScript. No framework or library used in the project.',
+  technology: ['Bootstrap', 'Html', 'css', 'JavaScript'],
   sourceCode: '',
   liveDemo: '',
+  class: 'bg1',
+}, {
+  projectTitle2: 'Awesome Books',
+  projectImage: 'AwesomeBooksDesktopLists.png',
+  projectTitle: 'Awesome Books',
+  demo: 'See Project',
+  source: 'See Source',
+  description2: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS nd Pure javaScript, without any library or framework used. You can view both source code and live version of this project by clicking on either of the buttons below.',
+  description: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS nd Pure javaScript, without any library or framework used.',
+  technology: ['Bootstrap', 'Html', 'css', 'JavaScript'],
+  sourceCode: '',
+  liveDemo: '',
+  class: 'bg2',
 }, {
   projectTitle2: 'Multi Post Stories',
   projectImage: 'secondpage.svg',
@@ -44,20 +57,10 @@ const projects = [{
   source: 'See Source',
   description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css'],
+  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
   sourceCode: '',
   liveDemo: '',
-}, {
-  projectTitle2: 'Multi Post Stories',
-  projectImage: 'secondpage.svg',
-  projectTitle: 'Professional works',
-  demo: 'See Project',
-  source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css'],
-  sourceCode: '',
-  liveDemo: '',
+  class: 'bg3',
 }, {
   projectTitle2: 'Multi Post Stories',
   projectImage: 'image.jpeg',
@@ -66,9 +69,10 @@ const projects = [{
   source: 'See Source',
   description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css'],
+  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
   sourceCode: '',
   liveDemo: '',
+  class: 'bg4',
 }, {
   projectTitle2: 'Multi Post Stories',
   projectImage: 'secondpage.svg',
@@ -77,9 +81,10 @@ const projects = [{
   source: 'See Source',
   description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css'],
+  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
   sourceCode: '',
   liveDemo: '',
+  class: 'bg5',
 }, {
   projectTitle2: 'Multi Post Stories',
   projectImage: 'image1.jpeg',
@@ -88,9 +93,10 @@ const projects = [{
   source: 'See Source',
   description2: 'Just a dummy webpage initially created to be my portfolio, created with just HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
   description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'CSS'],
+  technology: ['Bootstrap', 'Html', 'CSS', 'javaScript'],
   sourceCode: '',
   liveDemo: '',
+  class: 'bg6',
 },
 ];
 // ----------- array ends ----------
@@ -108,21 +114,21 @@ projects.forEach((project) => {
   const btn2 = document.createElement('div');
 
   div.innerHTML = `
-  <div class="pro">
-<div class="fh">
-<h2 class="white pro1">${project.projectTitle}</h2>
-<p class="white pro2">${project.description}</p>
-<ul class="pro4 flex">
-<li class="pro5 white">${project.technology[1]}</li>
-<li class="pro5 white">${project.technology[2]}</li>
-<li class="pro5 white">${project.technology[0]}</li>
-</ul>
-</div>
-</div>
+  <div class="pro ${project.class}">
+  <div class="fh">
+  <h2 class="white pro1">${project.projectTitle}</h2>
+  <p class="white pro2">${project.description}</p>
+  <ul class="pro4 flex">
+  <li class="pro5 white">${project.technology[1]}</li>
+  <li class="pro5 white">${project.technology[2]}</li>
+  <li class="pro5 white">${project.technology[3]}</li>
+  </ul>
+  </div>
+  </div>
   `;
   btn2.innerHTML = '<p class="white orangebg btn2">View project</p>';
 
-  div.classList.add = ('sl');
+  div.classList.add('sl');
   div.append(btn2);
 
   btn2.addEventListener('click', () => {
@@ -144,12 +150,12 @@ projects.forEach((project) => {
       </div>
       <ul class="lang2 flex">
           <li>${project.technology[1]}</li>
-          <li>${project.technology[0]}</li>
+          <li>${project.technology[3]}</li>
           <li>${project.technology[2]}</li>
       </ul>
   <div class="flexit">
       <div class="vi">
-          <img class="mod" src=${project.projectImage} alt="background image">
+          <img class="mod" src=./images/${project.projectImage} alt="background image">
       </div>
 
       <div class="vie">
@@ -160,7 +166,7 @@ projects.forEach((project) => {
           </ul>
       </div>
   </div>
-</div>
+  </div>
   `;
     const burg = document.querySelector('.burg');
     burg.addEventListener('click', () => {
