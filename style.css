@@ -147,7 +147,7 @@ nav h2 {
 }
 
 .section1 {
-  background-image: url('./mobiletop.svg');
+  background-image: url('./images/mobiletop.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 140px;
@@ -398,12 +398,25 @@ nav h2 {
 }
 
 .pro {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/image1.jpeg');
   background-position: center;
   background-size: cover;
   height: auto;
   width: 100%;
   margin: auto;
+}
+
+.bg1 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/futuristicGymsMobile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg2 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/AwesomeBooksDesktop.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .pro1 {
@@ -535,7 +548,7 @@ nav h2 {
 
 .bg {
   margin-top: 20px;
-  background-image: url('./bottombg.svg');
+  background-image: url('./images/bottombg.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 100px;
@@ -991,7 +1004,7 @@ textarea {
 
   .bg {
     margin-top: 20px;
-    background-image: url('./bottombgdesk.svg');
+    background-image: url('./images/bottombgdesk.svg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 300px;
@@ -1011,7 +1024,7 @@ textarea {
   }
 
   .pro {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./image1.jpeg');
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/image1.jpeg');
     background-position: center;
     background-size: cover;
     height: auto;
@@ -1019,7 +1032,27 @@ textarea {
   }
 
   .pro:hover {
-    background-image: url('./image1.jpeg');
+    background-image: url('./images/image1.jpeg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg1 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/futuristicGymsDesktop.png');
+  }
+
+  .bg2 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/AwesomeBooksDesktop.png');
+  }
+
+  .bg1:hover {
+    background-image: url('./images/futuristicGymsDesktop.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg2:hover {
+    background-image: url('./images/AwesomeBooksDesktopLists.png');
     background-position: center;
     background-size: cover;
   }
@@ -1070,7 +1103,7 @@ textarea {
 
   .section1 {
     display: flex;
-    background-image: url('./desktoptop.svg');
+    background-image: url('./images/desktoptop.svg');
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 150px;
@@ -1203,7 +1236,7 @@ textarea {
 @media (min-width: 1024px) {
   .bg {
     margin-top: 20px;
-    background-image: url('./bottombgdesk.svg');
+    background-image: url('./images/bottombgdesk.svg');
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 500px;
@@ -1231,7 +1264,7 @@ textarea {
   }
 
   .section1 {
-    background-image: url('./desktoptop.svg');
+    background-image: url('./images/desktoptop.svg');
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 150px;
