@@ -866,7 +866,7 @@ textarea {
   .cvDivTwo {
     width: 90%;
     background: #091e42;
-    padding: 12px 24px;
+    padding: 30px 5% 12px 5%;
     color: #fff;
     margin: auto;
   }
@@ -922,7 +922,7 @@ textarea {
     width: 90%;
     margin: auto;
     background: #091e42;
-    padding: 12px 24px;
+    padding: 12px 5%;
     color: #fff;
   }
 
@@ -995,7 +995,7 @@ textarea {
   }
 
   .cvDivThreeUl3 {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 20px;
     display: flex;
     gap: 15px;
@@ -1025,6 +1025,7 @@ textarea {
     display: flex;
     background: #344563;
     margin: 5px 2%;
+    width: 100%;
   }
 
   .cvDivs:nth-child(even) {
@@ -1042,7 +1043,7 @@ textarea {
 
   .cvPara {
     font-size: 14px;
-    margin: 12px 5px;
+    margin: 12px 0;
     width: 100%;
     line-height: 20px;
   }
@@ -1065,7 +1066,7 @@ textarea {
     cursor: pointer;
     position: absolute;
     left: 10px;
-    top: 20px;
+    top: 12px;
   }
 
   .cvHam1 {
