@@ -294,10 +294,29 @@ Texted.addEventListener('input', (e) => {
 // CV DISPLAY
 const certs = [{
   certImage: 'expe6gzj_1663585247656[1].svg',
-  certDescription: 'HTML and CSS certificate of completion. Issued by Microvese',
+  certDescription: 'HTML and CSS certificate of completion.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
 }, {
   certImage: 'zz1r9nox_1660230534588[1](3).svg',
-  certDescription: 'Intro to Web Development. Issued by Microvese',
+  certDescription: 'Intro to Web Development.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
+}, {
+  certImage: 'JavaScript_fundamentals[1].svg',
+  certDescription: 'JavaScript Fundamentals certificate.',
+  expiryDate: 'No expiry',
+  issudBy: 'Codenga',
+}, {
+  certImage: 'Responsive_Web_Design_Certificate[1].svg',
+  certDescription: 'Intro to Web Development.',
+  expiryDate: 'No expiry',
+  issudBy: 'FreeCodeCamp',
+}, {
+  certImage: 'Responsive_Web_Design_Certificate[1].svg',
+  certDescription: 'Intro to Web Development.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
 },
 ];
 
@@ -313,7 +332,7 @@ btn3.addEventListener('click', () => {
   curriculaVitae.innerHTML = `
   <div class="cvDiv"> 
   <div class="cvDivTwo">
-      <img src="/images/expe6gzj_1663585247656[1].svg" class="cvPassport" width="100%" alt="">
+      <img src="./images/expe6gzj_1663585247656[1].svg" class="cvPassport" width="100%" alt="">
       <h3 class="cvDivTwoHeader">
           Contact
       </h3>
@@ -405,13 +424,18 @@ btn3.addEventListener('click', () => {
 </div>`;
   const cvImagesDiv = document.querySelector('.cvImagesDiv');
   certs.forEach((cert) => {
-    const ul = document.createElement('ul');
-    ul.innerHTML = `
+    const cvDivs = document.createElement('div');
+    cvDivs.innerHTML = `
+    <ul class="ulCv">
               <li class="cvDivCerts">${cert.certDescription}</li>
+              <li class="IssuedBy">Issued By: ${cert.issudBy}</li>
+              <li class="expDate">Exp Date: ${cert.expiryDate}</li>
+              </ul>
           <img src="./images/${cert.certImage}" class="cvImages" alt="">
           `;
-    cvImagesDiv.classList.add('cvImagesDiv');
-    cvImagesDiv.append(ul);
+    // cvImagesDiv.classList.add('cvImagesDiv');
+    cvDivs.classList.add('cvDivs');
+    cvImagesDiv.append(cvDivs);
 
     foot.style.display = 'none';
     section2.style.display = 'none';
