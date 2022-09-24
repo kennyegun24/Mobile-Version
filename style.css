@@ -1016,26 +1016,49 @@ textarea {
 
   .cvImagesDiv {
     display: flex;
-    margin: auto;
-    width: 90%;
+    margin-top: 30px;
     flex-wrap: wrap;
+    color: #f5ece6;
   }
 
-  .cvImagesDiv ul {
-    flex-basis: 40%;
-    flex-grow: 1;
-    margin: 5px 5px;
+  .cvDivs {
+    display: flex;
+    background: #344563;
+    margin: 5px 2%;
+  }
+
+  .cvDivs:nth-child(even) {
+    flex-direction: row-reverse;
   }
 
   .cvImages {
+    width: 46%;
+    margin: 5px 2%;
+  }
+
+  .ulCv {
+    padding: 12px 12px;
+  }
+
+  .cvPara {
+    font-size: 14px;
+    margin: 12px 5px;
     width: 100%;
+    line-height: 20px;
+  }
+
+  .expDate {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .IssuedBy {
+    font-size: 12px;
   }
 
   .cvDivCerts {
     font-size: 14px;
     margin-bottom: 5px;
-    height: 30px;
-    list-style-type: initial;
   }
 
   .cvHam {
@@ -1065,13 +1088,6 @@ textarea {
     width: 80%;
     padding: 12px 10%;
     margin: auto;
-  }
-
-  .cvPara {
-    font-size: 14px;
-    padding: 12px 0;
-    width: 100%;
-    line-height: 20px;
   }
 }
 
@@ -1182,13 +1198,6 @@ textarea {
     font-size: 18px;
   }
 
-  .cvPara {
-    font-size: 16px;
-    padding: 12px 0;
-    width: 100%;
-    line-height: 20px;
-  }
-
   .cvDivTwoUl2 a {
     color: #fff;
   }
@@ -1293,25 +1302,56 @@ textarea {
     margin-top: 30px;
   }
 
-  .cvImagesDiv {
-    display: flex;
-    margin-top: 30px;
-  }
-
   .cvImagesDiv ul {
     flex-basis: 40%;
     flex-grow: 1;
     margin: 5px 10px;
   }
 
+  .cvImagesDiv {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: #f5ece6;
+  }
+
+  .cvDivs {
+    display: flex;
+    background: #344563;
+    margin: 5px 2%;
+  }
+
+  .cvDivs:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   .cvImages {
+    width: 46%;
+    margin: 5px 2%;
+  }
+
+  .ulCv {
+    padding: 12px 12px;
+  }
+
+  .cvPara {
+    font-size: 14px;
+    margin: 12px 5px;
     width: 100%;
   }
 
+  .expDate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .IssuedBy {
+    font-size: 12px;
+  }
+
   .cvDivCerts {
-    font-size: 16px;
-    height: auto;
-    list-style-type: initial;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
   .cvHam {
@@ -1798,5 +1838,53 @@ textarea {
     top: 30px;
     z-index: 1;
     height: 100vh;
+  }
+
+  .cvImagesDiv ul {
+    flex-basis: 40%;
+    flex-grow: 1;
+    margin: 5px 10px;
+  }
+
+  .cvImagesDiv {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: #f5ece6;
+  }
+
+  .cvDivs {
+    display: flex;
+    background: #344563;
+    margin: 5px 2%;
+  }
+
+  .cvDivs:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .cvImages {
+    width: 46%;
+    margin: 5px 2%;
+  }
+
+  .ulCv {
+    padding: 12px 12px;
+  }
+
+  .cvPara {
+    font-size: 16px;
+    margin: 12px 5px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .expDate {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .IssuedBy {
+    font-size: 14px;
   }
 }
