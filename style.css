@@ -847,6 +847,232 @@ textarea {
     left: -100%;
     position: absolute;
   }
+
+  .curriculaVitae {
+    width: 90%;
+    font-family: sans-serif;
+    top: 46px;
+    position: relative;
+    display: none;
+    margin: auto;
+  }
+
+  .cvDiv {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .cvDivTwo {
+    width: 90%;
+    background: #091e42;
+    padding: 12px 24px;
+    color: #fff;
+    margin: auto;
+  }
+
+  .curLine {
+    border: none;
+    outline: #fff solid 1px;
+    width: 60%;
+  }
+
+  .cvDivTwoHeader {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  .cvDivTwoUl {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+  }
+
+  .cvDivTwoUl2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 20px;
+  }
+
+  .cvDivTwoUl2 a {
+    color: #fff;
+  }
+
+  .cvDivTwoHeader2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+
+  .cvDivTwoUl3 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .cvDivTwoUl3 li {
+    background: #acb7c3;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #111;
+  }
+
+  .cvDivThree {
+    width: 90%;
+    margin: auto;
+    background: #091e42;
+    padding: 12px 24px;
+    color: #fff;
+  }
+
+  .cvDivThreeHeader {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  .cvDivThreeHeader2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .cvDivThreeUl {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .cvVert:nth-child(1) {
+    border-right: 2px #fff solid;
+    width: 12%;
+  }
+
+  .cvVert:nth-child(2) {
+    border-right: 2px #fff solid;
+    width: 25%;
+  }
+
+  .cvDivThreeHeader3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .cvDivThreeHeader4 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .cvDivThreeUl2 {
+    margin-top: 10px;
+  }
+
+  .natDip {
+    list-style-type: initial;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .yabaTech {
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .curLine2 {
+    border: none;
+    outline: #fff solid 1px;
+    width: 80%;
+  }
+
+  .cvDivThreeUl3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .cvDivThreeUl3 li {
+    background: #acb7c3;
+    color: #111;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+
+  .cvDivThreeHeader5 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .cvImagesDiv {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .cvImagesDiv ul {
+    flex-basis: 40%;
+    flex-grow: 1;
+    margin: 5px 5px;
+  }
+
+  .cvImages {
+    width: 100%;
+  }
+
+  .cvDivCerts {
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 30px;
+    list-style-type: initial;
+  }
+
+  .cvHam {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+
+  .cvHam1 {
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    margin: 4px 0;
+    transform: rotate(45deg) translateY(5px);
+  }
+
+  .cvHam3 {
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    margin: 4px 0;
+    transform: rotate(-45deg) translateY(-4px);
+  }
+
+  .cvPassport {
+    width: 80%;
+    padding: 12px 10%;
+    margin: auto;
+  }
+
+  .cvPara {
+    font-size: 14px;
+    padding: 12px 0;
+    width: 100%;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 365px) {
@@ -907,6 +1133,209 @@ textarea {
 }
 
 @media (min-width: 765px) {
+  .curriculaVitae {
+    width: 100%;
+    font-family: sans-serif;
+    top: 80px;
+    position: absolute;
+    margin: auto;
+    display: none;
+  }
+
+  .cvDiv {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #091e42;
+  }
+
+  .cvDivTwo {
+    width: 30%;
+    background: #091e42;
+    padding: 12px 24px;
+    color: #fff;
+  }
+
+  .curLine {
+    border: none;
+    outline: #fff solid 1px;
+  }
+
+  .cvDivTwoHeader {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  .cvDivTwoUl {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .cvDivTwoUl2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 18px;
+  }
+
+  .cvPara {
+    font-size: 16px;
+    padding: 12px 0;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .cvDivTwoUl2 a {
+    color: #fff;
+  }
+
+  .cvDivTwoHeader2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+  .cvDivTwoUl3 {
+    list-style-type: initial;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .cvDivThree {
+    width: 70%;
+    background: #fff;
+    padding: 12px 24px;
+    color: #111;
+    margin-left: 30px;
+  }
+
+  .cvDivThreeHeader {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .cvDivThreeHeader2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .cvDivThreeUl {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .cvVert:nth-child(1) {
+    border-right: 3px #111 solid;
+    width: 15%;
+  }
+
+  .cvVert:nth-child(2) {
+    border-right: 3px #111 solid;
+    width: 30%;
+  }
+
+  .cvDivThreeHeader3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .cvDivThreeHeader4 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .cvDivThreeUl2 {
+    margin-top: 10px;
+  }
+
+  .natDip {
+    list-style-type: initial;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .yabaTech {
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .curLine2 {
+    border: none;
+    outline: #111 solid 1px;
+  }
+
+  .cvDivThreeUl3 {
+    list-style-type: initial;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .cvDivThreeHeader5 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .cvImagesDiv {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .cvImagesDiv ul {
+    flex-basis: 40%;
+    flex-grow: 1;
+    margin: 5px 10px;
+  }
+
+  .cvImages {
+    width: 100%;
+  }
+
+  .cvDivCerts {
+    font-size: 16px;
+    height: auto;
+    list-style-type: initial;
+  }
+
+  .cvHam {
+    cursor: pointer;
+    position: absolute;
+    right: 12%;
+  }
+
+  .cvHam1 {
+    background: #111;
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    transform: rotate(45deg) translateY(5px);
+  }
+
+  .cvHam3 {
+    background: #111;
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    transform: rotate(-45deg) translateY(-4px);
+  }
+
   textarea {
     font: 1em sans-serif;
     border: none;
@@ -1288,6 +1717,25 @@ textarea {
 }
 
 @media (min-width: 1024px) {
+  .cvVert:nth-child(1) {
+    border-right: 2px #111 solid;
+    width: 12%;
+  }
+
+  .cvVert:nth-child(2) {
+    border-right: 2px #111 solid;
+    width: 20%;
+  }
+
+  .cvDivThreeUl {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
   .bg {
     margin-top: 20px;
     background-image: url('./images/bottombgdesk.svg');
