@@ -408,7 +408,7 @@ btn3.addEventListener('click', () => {
     const ul = document.createElement('ul');
     ul.innerHTML = `
               <li class="cvDivCerts">${cert.certDescription}</li>
-          <img src="/images/${cert.certImage}" class="cvImages" alt="">
+          <img src="./images/${cert.certImage}" class="cvImages" alt="">
           `;
     cvImagesDiv.classList.add('cvImagesDiv');
     cvImagesDiv.append(ul);
