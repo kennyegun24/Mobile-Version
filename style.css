@@ -419,6 +419,24 @@ nav h2 {
   background-position: center;
 }
 
+.bg4 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/calculator.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg3 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/todolist.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg5 {
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/leaderboard.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .pro1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -1569,6 +1587,18 @@ textarea {
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/AwesomeBooksDesktop.png');
   }
 
+  .bg3 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/todolist.png');
+  }
+
+  .bg4 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/calculator.jpeg');
+  }
+
+  .bg5 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/leaderboard.png');
+  }
+
   .bg1:hover {
     background-image: url('./images/futuristicGymsDesktop.png');
     background-position: center;
@@ -1577,6 +1607,24 @@ textarea {
 
   .bg2:hover {
     background-image: url('./images/AwesomeBooksDesktopLists.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg4:hover {
+    background-image: url('./images/calculator.jpeg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg3:hover {
+    background-image: url('./images/todolist.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg5:hover {
+    background-image: url('./images/leaderboard.png');
     background-position: center;
     background-size: cover;
   }
