@@ -43,47 +43,47 @@ const projects = [{
   projectTitle: 'Awesome Books',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS nd Pure javaScript, without any library or framework used. You can view both source code and live version of this project by clicking on either of the buttons below.',
-  description: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS nd Pure javaScript, without any library or framework used.',
+  description2: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
+  description: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used.a',
   technology: ['Bootstrap', 'Html', 'css', 'JavaScript'],
-  sourceCode: 'https://github.com/kennyegun24/AwesomeBooks',
-  liveDemo: 'https://KennyEgun24.github.io/AwesomeBooks/',
+  sourceCode: 'https://github.com/kennyegun24/Awesome-books-es6',
+  liveDemo: 'https://KennyEgun24.github.io/Awesome-books-es6/',
   class: 'bg2',
 }, {
-  projectTitle2: 'Multi Post Stories',
-  projectImage: 'secondpage.svg',
+  projectTitle2: 'My Todo-List',
+  projectImage: 'todolist.png',
   projectTitle: 'My Todo-List',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'A mini Todo-List project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS nd Pure javaScript, without any library or framework used.',
+  description2: 'A mini Todo-list app. Built to store user daily tasks into the machine"s local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
+  description: 'A mini Todo-list app. Built to store user daily tasks into the machine"s local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used',
   technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
-  sourceCode: '',
-  liveDemo: '',
+  sourceCode: 'https://github.com/kennyegun24/TODO-LIST-APP',
+  liveDemo: 'https://kennyegun24.github.io/TODO-LIST-APP/dist/',
   class: 'bg3',
 }, {
-  projectTitle2: 'Multi Post Stories',
-  projectImage: 'image.jpeg',
-  projectTitle: 'Professional works',
+  projectTitle2: 'Simple Calculator',
+  projectImage: 'calculator.jpeg',
+  projectTitle: 'Simple Calculator',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
+  description2: 'Just a simple calculator for basic functions built with Vanilla J.S, HTML5 and only CSS3, no framework used You can check the source code and live demo of this project.',
+  description: 'A simple calculator. Built for simple and basic mathematical calculations / operations. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used.',
+  technology: ['Bootstrap', 'Html', 'CSS', 'javaScript'],
   sourceCode: '',
   liveDemo: '',
   class: 'bg4',
 }, {
-  projectTitle2: 'Multi Post Stories',
-  projectImage: 'secondpage.svg',
-  projectTitle: 'Professional works',
+  projectTitle2: 'Leader Board',
+  projectImage: 'leaderboard.png',
+  projectTitle: 'Leaderboard',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
+  description2: 'A mini app built on an API. Built to store user scores into an API and get the score updated to display it on the screen. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
+  description: 'A mini app built on an API. Built to store user scores into the API and display on screen. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used',
   technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
-  sourceCode: '',
-  liveDemo: '',
+  sourceCode: 'https://github.com/kennyegun24/LeaderBoard',
+  liveDemo: 'https://kennyegun24.github.io/LeaderBoard/dist/',
   class: 'bg5',
 }, {
   projectTitle2: 'Multi Post Stories',
@@ -138,7 +138,7 @@ projects.forEach((project) => {
     header.style.filter = 'blur(2px)';
     about.style.filter = 'blur(3px)';
     works.style.filter = 'blur(3px)';
-    card.innerHTML = `
+    card.innerHTML = ` 
   <div class="view">
       <div class="second flex align justbtw">
           <h2 class="se">${project.projectTitle2}</h2>
@@ -293,28 +293,28 @@ Texted.addEventListener('input', (e) => {
 
 // CV DISPLAY
 const certs = [{
-  certImage: 'expe6gzj_1663585247656[1].svg',
-  certDescription: 'HTML and CSS certificate of completion.',
-  expiryDate: 'No expiry',
-  issudBy: 'Microverse',
-}, {
   certImage: 'zz1r9nox_1660230534588[1](3).svg',
   certDescription: 'Intro to Web Development.',
   expiryDate: 'No expiry',
   issudBy: 'Microverse',
-}, {
-  certImage: 'JavaScript_fundamentals[1].svg',
-  certDescription: 'JavaScript Fundamentals certificate.',
-  expiryDate: 'No expiry',
-  issudBy: 'Codenga',
 }, {
   certImage: 'Responsive_Web_Design_Certificate[1].svg',
   certDescription: 'Intro to Web Development.',
   expiryDate: 'No expiry',
   issudBy: 'FreeCodeCamp',
 }, {
-  certImage: 'Responsive_Web_Design_Certificate[1].svg',
-  certDescription: 'Intro to Web Development.',
+  certImage: 'JavaScript_fundamentals[1].svg',
+  certDescription: 'JavaScript Fundamentals certificate.',
+  expiryDate: 'No expiry',
+  issudBy: 'Codenga',
+}, {
+  certImage: 'Htmlandcss.svg',
+  certDescription: 'HTML and CSS certificate of completion.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
+}, {
+  certImage: 'MicJs.svg',
+  certDescription: 'JavaScript Mastery.',
   expiryDate: 'No expiry',
   issudBy: 'Microverse',
 },
