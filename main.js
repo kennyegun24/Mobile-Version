@@ -28,74 +28,75 @@ spreadList.forEach((list) => {
 const projects = [{
   projectTitle2: 'Futuristic Gyms',
   projectTitle: 'Futuristic Gyms',
-  projectImage: 'futuristicGymsDesktop.png',
+  projectImage: './images/futuristicGymsDesktop.png',
   demo: 'See Project',
   source: 'See Source',
   description2: 'A capstone project built by me. Webpage built based on a new gym launch. The website was created with html, pure CSS and pure JavaScript. No framework or library used in the project. You can check the soure and also view the live demo of the project by clicking on any of the buttons below',
   description: 'A capstone project built by me. Webpage built based on a new gym launch. The website was created with html, pure CSS and pure JavaScript. No framework or library used in the project.',
-  technology: ['Bootstrap', 'Html', 'css', 'JavaScript'],
+  technology: ['Html', 'css', 'JavaScript'],
   sourceCode: 'https://github.com/kennyegun24/Futuristic-Gyms',
   liveDemo: 'https://kennyegun24.github.io/Futuristic-Gyms/',
   class: 'bg1',
 }, {
   projectTitle2: 'Awesome Books',
-  projectImage: 'AwesomeBooksDesktopLists.png',
+  projectImage: './images/AwesomeBooksDesktopLists.png',
   projectTitle: 'Awesome Books',
   demo: 'See Project',
   source: 'See Source',
   description2: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
   description: 'A mini book list project. Built to store user lists of books into the machine local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used.a',
-  technology: ['Bootstrap', 'Html', 'css', 'JavaScript'],
+  technology: ['Html', 'css', 'JavaScript'],
   sourceCode: 'https://github.com/kennyegun24/Awesome-books-es6',
   liveDemo: 'https://KennyEgun24.github.io/Awesome-books-es6/',
   class: 'bg2',
 }, {
   projectTitle2: 'My Todo-List',
-  projectImage: 'todolist.png',
+  projectImage: './images/todolist.png',
   projectTitle: 'My Todo-List',
   demo: 'See Project',
   source: 'See Source',
   description2: 'A mini Todo-list app. Built to store user daily tasks into the machine"s local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
   description: 'A mini Todo-list app. Built to store user daily tasks into the machine"s local storage. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used',
-  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
+  technology: ['Html', 'css', 'javaScript'],
   sourceCode: 'https://github.com/kennyegun24/TODO-LIST-APP',
   liveDemo: 'https://kennyegun24.github.io/TODO-LIST-APP/dist/',
   class: 'bg3',
 }, {
-  projectTitle2: 'Simple Calculator',
-  projectImage: 'calculator.jpeg',
-  projectTitle: 'Simple Calculator',
+  projectTitle2: 'Crypto price tracker',
+  projectImage: './images/calculator.jpeg',
+  projectTitle: 'Crypto price tracker',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a simple calculator for basic functions built with Vanilla J.S, HTML5 and only CSS3, no framework used You can check the source code and live demo of this project.',
-  description: 'A simple calculator. Built for simple and basic mathematical calculations / operations. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used.',
-  technology: ['Bootstrap', 'Html', 'CSS', 'javaScript'],
-  sourceCode: '',
-  liveDemo: '',
+  description2: "A live crypto currency tracking web app that provide real time data, historical info and every details on several cryptocurrencies. The web app was built using react and the data is being consumed from a third party api (coingecko's api). Redux was used as a state management tool and the app waas also tested inorder to make sure it give users 100% satisfaction",
+  description: 'This is a live crypto currency price tracking web application built to serve as a live cryptocurrency price tracker. It was built with react and data consumed from a third party API (coingecko API).',
+  technology: ['React.js', 'CSS', 'javaScript', 'Jest', 'Redux'],
+  sourceCode: 'https://github.com/kennyegun24/cryptocurrency-app',
+  liveDemo: 'https://kennys-cryptohub.netlify.app',
   class: 'bg4',
 }, {
   projectTitle2: 'Leader Board',
-  projectImage: 'leaderboard.png',
+  projectImage: './images/leaderboard.png',
   projectTitle: 'Leaderboard',
   demo: 'See Project',
   source: 'See Source',
   description2: 'A mini app built on an API. Built to store user scores into an API and get the score updated to display it on the screen. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used. You can view both source code aand live version of this project by clicking on either of the buttons below.',
   description: 'A mini app built on an API. Built to store user scores into the API and display on screen. It was created with only HTML, pure CSS and Pure javaScript, without any library or framework used',
-  technology: ['Bootstrap', 'Html', 'css', 'javaScript'],
+  technology: ['Html', 'css', 'javaScript'],
   sourceCode: 'https://github.com/kennyegun24/LeaderBoard',
   liveDemo: 'https://kennyegun24.github.io/LeaderBoard/dist/',
   class: 'bg5',
-}, {
-  projectTitle2: 'Multi Post Stories',
-  projectImage: 'image1.jpeg',
-  projectTitle: 'Professional works',
+},
+{
+  projectTitle2: 'Kenstagram',
+  projectImage: './images/projects/mobile(3).png',
+  projectTitle: 'Kenstagram',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'Just a dummy webpage initially created to be my portfolio, created with just HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  description: 'Just a dummy webpage initially created to be my portfolio, created with only HTML and javascript with no template guide. Zero functionality. Just a dummy webpage, on interractive.',
-  technology: ['Bootstrap', 'Html', 'CSS', 'javaScript'],
-  sourceCode: '',
-  liveDemo: '',
+  description2: 'This an instagram clone built with react and css. Not with full functionalities, only a few such as following a user, sending direct message and also posting of new images. This is a Single page application built with react.js for frontend and firebase for auth, database and cloud storage',
+  description: 'This is an instagram clone built with Firebase for auth, database and cloud storage and React.js for front end. This webapp has a few functionalities and it is also built for mobile and desktop views.',
+  technology: ['CSS', 'React.js', 'Firebase', 'Context api'],
+  sourceCode: 'https://github.com/kennyegun24/instagram-clone',
+  liveDemo: 'https://kenny-ig.netlify.app/',
   class: 'bg6',
 },
 ];
@@ -119,9 +120,11 @@ projects.forEach((project) => {
   <h2 class="white pro1">${project.projectTitle}</h2>
   <p class="white pro2">${project.description}</p>
   <ul class="pro4 flex">
+  <li class="pro5 white">${project.technology[0]}</li>
   <li class="pro5 white">${project.technology[1]}</li>
   <li class="pro5 white">${project.technology[2]}</li>
-  <li class="pro5 white">${project.technology[3]}</li>
+  ${project.technology[3] ? `<li class="pro5 white">${project.technology[3]}</li>` : ''}
+  ${project.technology[4] ? `<li class="pro5 white">${project.technology[4]}</li>` : ''}
   </ul>
   </div>
   </div>
@@ -149,13 +152,15 @@ projects.forEach((project) => {
           </div>
       </div>
       <ul class="lang2 flex">
+          <li>${project.technology[0]}</li>
           <li>${project.technology[1]}</li>
-          <li>${project.technology[3]}</li>
           <li>${project.technology[2]}</li>
+          ${project.technology[3] ? `<li>${project.technology[3]}</li>` : ''}
+          ${project.technology[4] ? `<li>${project.technology[4]}</li>` : ''}
       </ul>
   <div class="flexit">
       <div class="vi">
-          <img class="mod" src=./images/${project.projectImage} alt="background image">
+          <img class="mod" src=${project.projectImage} alt="background image">
       </div>
 
       <div class="vie">
@@ -314,7 +319,17 @@ const certs = [{
   issudBy: 'Microverse',
 }, {
   certImage: 'MicJs.svg',
-  certDescription: 'JavaScript Mastery.',
+  certDescription: 'JavaScript Certificate of completion.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
+}, {
+  certImage: 'MicJs.svg',
+  certDescription: 'React.js and Redux Certificate of Completion.',
+  expiryDate: 'No expiry',
+  issudBy: 'Microverse',
+}, {
+  certImage: 'MicJs.svg',
+  certDescription: 'Ruby and database Mastery.',
   expiryDate: 'No expiry',
   issudBy: 'Microverse',
 },
@@ -431,7 +446,7 @@ btn3.addEventListener('click', () => {
               <li class="IssuedBy">Issued By: ${cert.issudBy}</li>
               <li class="expDate">Exp Date: ${cert.expiryDate}</li>
               </ul>
-          <img src="./images/${cert.certImage}" class="cvImages" alt="">
+          <img src="./images/certs/${cert.certImage}" class="cvImages" alt="">
           `;
     // cvImagesDiv.classList.add('cvImagesDiv');
     cvDivs.classList.add('cvDivs');
