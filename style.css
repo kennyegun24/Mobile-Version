@@ -413,7 +413,8 @@ nav h2 {
 }
 
 .mod {
-  height: 300px;
+  height: 250px;
+  height: 400px;
 }
 
 /* ---------!-------- */
@@ -442,7 +443,7 @@ nav h2 {
 }
 
 .bg2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/AwesomeBooksDesktop.png');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/projects/budget_app2.png');
   background-repeat: no-repeat;
   background-position: var(--center);
 }
@@ -1172,6 +1173,7 @@ textarea {
   }
 
   .mod {
+    object-fit: contain;
     height: 200px;
     width: auto;
     margin: auto;
@@ -1621,7 +1623,7 @@ textarea {
   }
 
   .bg2 {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/AwesomeBooksDesktop.png');
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('./images/projects/budget_app2.png');
   }
 
   .bg3 {
@@ -1647,7 +1649,7 @@ textarea {
   }
 
   .bg2:hover {
-    background-image: url('./images/AwesomeBooksDesktopLists.png');
+    background-image: url('./images/projects/budget_app.png');
     background-position: var(--center);
     background-size: cover;
   }
@@ -1842,8 +1844,9 @@ textarea {
 
   .mod {
     padding-left: 5%;
-    height: auto;
     width: auto;
+    height: 400px;
+    object-fit: contain;
   }
 
   .se {
