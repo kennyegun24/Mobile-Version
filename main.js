@@ -43,8 +43,8 @@ const projects = [{
   projectTitle: 'Budget Tracker',
   demo: 'See Project',
   source: 'See Source',
-  description2: 'This is a full stack web application built using Ruby on Rails (RoR) framework for Ruby Language. This application was built to keep track their budget by creating a gen group and add an item to it. This is a fully tested application so that every user may have a splendid experience using the application without encountering any bug, and so that they may have a wonderful ecperience using the webapp',
-  description: 'This is a full stack web application built using Ruby on Rails (RoR) framework for Ruby Language. This application was built to keep track their budget by creating a gen group and add an item to it.',
+  description2: 'This is a full stack web application built using Ruby on Rails (RoR) framework for Ruby Language. This application was built to keep track of a user"s budget by creating a gen group and add an item to it. This is a fully tested application so that every user may have a splendid experience using the application without encountering any bug, and so that they may have a wonderful ecperience using the webapp',
+  description: 'This is a full stack web application built using Ruby on Rails (RoR) framework for Ruby Language. This application was built to keep track of a user"s budget budget by creating a gen group and add an item to it.',
   technology: ['Ruby on Rails', 'css', 'Rspec'],
   sourceCode: 'https://github.com/kennyegun24/Budget-App',
   liveDemo: 'https://budget-app-r9pr.onrender.com',
@@ -120,11 +120,13 @@ projects.forEach((project) => {
   <h2 class="white pro1">${project.projectTitle}</h2>
   <p class="white pro2">${project.description}</p>
   <ul class="pro4 flex">
-  <li class="pro5 white">${project.technology[0]}</li>
-  <li class="pro5 white">${project.technology[1]}</li>
-  <li class="pro5 white">${project.technology[2]}</li>
+  ${project.technology[0] ? `<li class="pro5 white">${project.technology[0]}</li>` : ''}
+  ${project.technology[1] ? `<li class="pro5 white">${project.technology[1]}</li>` : ''}
+  ${project.technology[2] ? `<li class="pro5 white">${project.technology[2]}</li>` : ''}
   ${project.technology[3] ? `<li class="pro5 white">${project.technology[3]}</li>` : ''}
   ${project.technology[4] ? `<li class="pro5 white">${project.technology[4]}</li>` : ''}
+  ${project.technology[5] ? `<li class="pro5 white">${project.technology[5]}</li>` : ''}
+  ${project.technology[6] ? `<li class="pro5 white">${project.technology[6]}</li>` : ''}
   </ul>
   </div>
   </div>
@@ -152,11 +154,14 @@ projects.forEach((project) => {
           </div>
       </div>
       <ul class="lang2 flex">
-          <li>${project.technology[0]}</li>
-          <li>${project.technology[1]}</li>
-          <li>${project.technology[2]}</li>
+
+          ${project.technology[0] ? `<li>${project.technology[0]}</li>` : ''}
+          ${project.technology[1] ? `<li>${project.technology[1]}</li>` : ''}
+          ${project.technology[2] ? `<li>${project.technology[2]}</li>` : ''}
           ${project.technology[3] ? `<li>${project.technology[3]}</li>` : ''}
           ${project.technology[4] ? `<li>${project.technology[4]}</li>` : ''}
+          ${project.technology[5] ? `<li>${project.technology[5]}</li>` : ''}
+          ${project.technology[6] ? `<li>${project.technology[6]}</li>` : ''}
       </ul>
   <div class="flexit">
       <div class="vi">
